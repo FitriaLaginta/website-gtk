@@ -1,0 +1,471 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+header {
+  background-color: #174ea6;
+}
+
+.navbar {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 0;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.menu a:hover,
+.menu a.active {
+  border-bottom: 2px solid white;
+  padding-bottom: 5px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+  min-height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  background: linear-gradient(135deg, #e8f0fe, #ffffff);
+}
+
+.hero-content {
+  width: 90%;
+  max-width: 750px;
+}
+
+.subtitle {
+  color: #174ea6;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #174ea6;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.btn {
+  display: inline-block;
+
+  background-color: #174ea6;
+  color: white;
+
+  padding: 12px 25px;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0d3b82;
+}
+
+/* =========================
+   SECTION
+========================= */
+
+.section {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+
+  padding: 70px 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 30px;
+  color: #174ea6;
+}
+
+.section-description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+
+  width: 31%;
+  min-width: 250px;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+
+  text-align: left;
+}
+
+.icon {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #174ea6;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 15px;
+
+  color: #174ea6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* =========================
+   PAGE HEADER
+========================= */
+
+.page-header {
+  background-color: #e8f0fe;
+
+  text-align: center;
+
+  padding: 60px 20px;
+}
+
+.page-header h1 {
+  color: #174ea6;
+  font-size: 38px;
+}
+
+.page-header p {
+  margin-top: 10px;
+}
+
+/* =========================
+   PROFIL
+========================= */
+
+.content {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+
+  padding: 60px 0;
+}
+
+.content-box {
+  background-color: white;
+
+  padding: 35px;
+
+  margin-bottom: 25px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+}
+
+.content-box h2 {
+  color: #174ea6;
+  margin-bottom: 20px;
+}
+
+.content-box p {
+  margin-bottom: 15px;
+}
+
+.role-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.role {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.role span {
+  color: #174ea6;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* =========================
+   INFORMASI
+========================= */
+
+.information {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+
+  padding: 60px 0;
+}
+
+.info-card {
+  background-color: white;
+
+  padding: 30px;
+
+  margin-bottom: 25px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+}
+
+.category {
+  color: #174ea6;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.info-card h2 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  color: #333;
+}
+
+.date {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.info-card a {
+  display: inline-block;
+
+  margin-top: 15px;
+
+  color: #174ea6;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+/* =========================
+   KONTAK
+========================= */
+
+.contact {
+  width: 90%;
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 60px 0;
+
+  display: flex;
+  gap: 30px;
+}
+
+.contact-info,
+.contact-form {
+  width: 50%;
+
+  background-color: white;
+
+  padding: 35px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.07);
+}
+
+.contact h2 {
+  color: #174ea6;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 15px;
+
+  margin-bottom: 25px;
+}
+
+.contact-item span {
+  font-size: 25px;
+}
+
+.contact-item h3 {
+  font-size: 16px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  font-family: Arial, sans-serif;
+
+  padding: 12px;
+
+  margin-bottom: 20px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+
+  font-size: 15px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  background-color: #174ea6;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: #0d3b82;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  background-color: #123b7a;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 25px;
+
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 3px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}
